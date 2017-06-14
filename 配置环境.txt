@@ -1,0 +1,5 @@
+1.本项目使用spring+MyBatis搭建，修改数据库配置参数，就可以将数据库进行导入
+
+2.在线阅读功能使用FlexPaper+swfTools仿百度文库文档在线预览系统设计与实现，使用系统前，具体配置如下：
+  （一）安装openoffice,openoffice是开源免费的文字处理软件，它可以将office文档转成pdf文件，安装完openoffice后必须启动其server，以命令行方式启动openoffice server。进入cmd命令行提示符，键入如下命令：soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" –nofirststartwizard
+  （二）安装swfTools（安装到 D:\Program Files）swftools作用是将pdf转换为swf文件以便flexpaper播放
